@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f52f7baf46b314bc066adfe82f26c037",
+    "content-hash": "0a051b0639ba4997270623b2e0d39642",
     "packages": [
         {
             "name": "akaunting/laravel-money",
@@ -6622,16 +6622,16 @@
         },
         {
             "name": "sentry/sentry-laravel",
-            "version": "3.5.1",
+            "version": "3.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getsentry/sentry-laravel.git",
-                "reference": "85c2168e469ca73ee90de5e71cef53153e949e64"
+                "reference": "6aacef4d12c22046f68ab617ee1496b9655b8eb9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getsentry/sentry-laravel/zipball/85c2168e469ca73ee90de5e71cef53153e949e64",
-                "reference": "85c2168e469ca73ee90de5e71cef53153e949e64",
+                "url": "https://api.github.com/repos/getsentry/sentry-laravel/zipball/6aacef4d12c22046f68ab617ee1496b9655b8eb9",
+                "reference": "6aacef4d12c22046f68ab617ee1496b9655b8eb9",
                 "shasum": ""
             },
             "require": {
@@ -6639,7 +6639,7 @@
                 "nyholm/psr7": "^1.0",
                 "php": "^7.2 | ^8.0",
                 "sentry/sdk": "^3.4",
-                "sentry/sentry": "^3.19",
+                "sentry/sentry": "^3.20",
                 "symfony/psr-http-message-bridge": "^1.0 | ^2.0"
             },
             "require-dev": {
@@ -6696,7 +6696,7 @@
             ],
             "support": {
                 "issues": "https://github.com/getsentry/sentry-laravel/issues",
-                "source": "https://github.com/getsentry/sentry-laravel/tree/3.5.1"
+                "source": "https://github.com/getsentry/sentry-laravel/tree/3.6.0"
             },
             "funding": [
                 {
@@ -6708,7 +6708,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2023-06-20T13:19:32+00:00"
+            "time": "2023-06-29T10:31:13+00:00"
         },
         {
             "name": "spatie/eloquent-sortable",
@@ -6976,16 +6976,16 @@
         },
         {
             "name": "spatie/laravel-medialibrary",
-            "version": "10.10.0",
+            "version": "10.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-medialibrary.git",
-                "reference": "bc802155cd621492fb33cdca6427a2666fdff707"
+                "reference": "84f7bb253bc7b9498ff2cd0d74f82e88d299c517"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-medialibrary/zipball/bc802155cd621492fb33cdca6427a2666fdff707",
-                "reference": "bc802155cd621492fb33cdca6427a2666fdff707",
+                "url": "https://api.github.com/repos/spatie/laravel-medialibrary/zipball/84f7bb253bc7b9498ff2cd0d74f82e88d299c517",
+                "reference": "84f7bb253bc7b9498ff2cd0d74f82e88d299c517",
                 "shasum": ""
             },
             "require": {
@@ -7069,7 +7069,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/laravel-medialibrary/issues",
-                "source": "https://github.com/spatie/laravel-medialibrary/tree/10.10.0"
+                "source": "https://github.com/spatie/laravel-medialibrary/tree/10.10.1"
             },
             "funding": [
                 {
@@ -7081,7 +7081,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-06-22T10:45:08+00:00"
+            "time": "2023-06-29T07:18:20+00:00"
         },
         {
             "name": "spatie/laravel-package-tools",
@@ -14129,9 +14129,9 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "lara-zeus/artemis": 20,
         "lara-zeus/sky": 20,
         "lara-zeus/wind": 20,
-        "lara-zeus/artemis": 20,
         "still-code/signature": 20
     },
     "prefer-stable": true,
