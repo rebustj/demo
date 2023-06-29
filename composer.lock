@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0a051b0639ba4997270623b2e0d39642",
+    "content-hash": "e29d6d280cb488233216b2cdbcbb7d53",
     "packages": [
         {
             "name": "akaunting/laravel-money",
@@ -3071,14 +3071,14 @@
         },
         {
             "name": "lara-zeus/artemis",
-            "version": "dev-main",
+            "version": "dev-themes",
             "dist": {
                 "type": "path",
                 "url": "../artemis",
-                "reference": "7888b6ecceb2a169d2c76cee28b5118163ca31be"
+                "reference": "15efbf0b36e5c4e84144890cbfc7da8c018bd4ec"
             },
             "require": {
-                "lara-zeus/core": "dev-main",
+                "lara-zeus/core": "dev-themes",
                 "php": "^8.0"
             },
             "type": "library",
@@ -3125,11 +3125,11 @@
         },
         {
             "name": "lara-zeus/core",
-            "version": "dev-main",
+            "version": "dev-themes",
             "dist": {
                 "type": "path",
                 "url": "../core",
-                "reference": "e45844b0e9d84662570925db622b4b8d8434e321"
+                "reference": "762194d06ac48aa51761a64531a48a0cbe6af973"
             },
             "require": {
                 "archtechx/laravel-seo": "^0.7",
@@ -3214,11 +3214,11 @@
         },
         {
             "name": "lara-zeus/sky",
-            "version": "dev-main",
+            "version": "dev-change-theme-var",
             "dist": {
                 "type": "path",
                 "url": "../sky",
-                "reference": "591dc7aed8781c17eedcbeedb5198af452d80d39"
+                "reference": "6b8589708939311dec50d5bb8a876844f042d04e"
             },
             "require": {
                 "doctrine/dbal": "^3.3",
@@ -3226,7 +3226,7 @@
                 "filament/spatie-laravel-media-library-plugin": "^2.0",
                 "filament/spatie-laravel-tags-plugin": "^2.0",
                 "filament/spatie-laravel-translatable-plugin": "^2.0",
-                "lara-zeus/core": "dev-main",
+                "lara-zeus/core": "dev-themes",
                 "mohamedsabil83/filament-forms-tinyeditor": "^1.7",
                 "php": "^8.0",
                 "ryangjchandler/filament-navigation": "dev-with-rtl",
@@ -3312,14 +3312,14 @@
         },
         {
             "name": "lara-zeus/wind",
-            "version": "dev-main",
+            "version": "dev-themes",
             "dist": {
                 "type": "path",
                 "url": "../wind",
-                "reference": "b5c612f3b233873068e5d832b39df81d1dc3517e"
+                "reference": "98050b8db7cf1628db9a5d96ff5e4d3a0278f0a8"
             },
             "require": {
-                "lara-zeus/core": "dev-main",
+                "lara-zeus/core": "dev-themes",
                 "php": "^8.1"
             },
             "require-dev": {

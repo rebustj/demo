@@ -1,47 +1,43 @@
-<div class="flex justify-center items-center bord">
-    <div
-        x-data="{
-            open: false,
-            toggle() {
-                if (this.open) {
-                    return this.close()
-                }
-                this.$refs.button.focus()
-                this.open = true
-            },
-            close(focusAfter) {
-                if (! this.open) return
-                this.open = false
-                focusAfter && focusAfter.focus()
-            }
-        }"
-        x-on:keydown.escape.prevent.stop="close($refs.button)"
-        x-on:focusin.window="! $refs.panel.contains($event.target) && close()"
-        x-id="['dropdown-button']"
-        class="relative"
-    >
-        <!-- Button -->
-        <button
-            x-ref="button"
-            x-on:click="toggle()"
-            :aria-expanded="open"
-            :aria-controls="$id('dropdown-button')"
-            type="button"
-            class="text-primary-600 dark:text-primary-400 hover:text-secondary-600 hover:dark:text-secondary-400"
-        >
-            {{ $oppener }}
-        </button>
+@props(['align' => 'right', 'width' => '48', 'contentClasses' => 'py-1 bg-white dark:bg-gray-700'])
 
-        <!-- Panel -->
-        <div x-cloak
-            x-ref="panel"
-            x-show="open"
-            x-transition.origin.top.left
-            x-on:click.outside="close($refs.button)"
-            :id="$id('dropdown-button')"
-            class="absolute z-50 ltr:left-0 rtl:right-0 w-36 bg-white dark:bg-primary-700 text-primary-800 dark:text-primary-400 rounded shadow-md overflow-hidden"
-        >
-            {{ $slot }}
+@php
+switch ($align) {
+    case 'left':
+        $alignmentClasses = 'origin-top-left left-0';
+        break;
+    case 'top':
+        $alignmentClasses = 'origin-top';
+        break;
+    case 'right':
+    default:
+        $alignmentClasses = 'origin-top-right right-0';
+        break;
+}
+
+switch ($width) {
+    case '48':
+        $width = 'w-48';
+        break;
+}
+@endphp
+
+<div class="relative" x-data="{ open: false }" @click.outside="open = false" @close.stop="open = false">
+    <div @click="open = ! open">
+        {{ $trigger }}
+    </div>
+
+    <div x-show="open"
+            x-transition:enter="transition ease-out duration-200"
+            x-transition:enter-start="transform opacity-0 scale-95"
+            x-transition:enter-end="transform opacity-100 scale-100"
+            x-transition:leave="transition ease-in duration-75"
+            x-transition:leave-start="transform opacity-100 scale-100"
+            x-transition:leave-end="transform opacity-0 scale-95"
+            class="absolute z-50 mt-2 {{ $width }} rounded-md shadow-lg {{ $alignmentClasses }}"
+            style="display: none;"
+            @click="open = false">
+        <div class="rounded-md ring-1 ring-black ring-opacity-5 {{ $contentClasses }}">
+            {{ $content }}
         </div>
     </div>
 </div>

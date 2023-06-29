@@ -27,3 +27,5 @@ Route::post('/forms', function () {
         'state' => 'faild',
     ]);
 });
+
+require __DIR__.'/auth.php';
