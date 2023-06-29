@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "04f759239fa50a40cf7414de05ccda4a",
+    "content-hash": "7f049eee9f644432c15894a5e0d5e774",
     "packages": [
         {
             "name": "akaunting/laravel-money",
@@ -598,62 +598,6 @@
                 }
             ],
             "time": "2023-06-09T15:47:26+00:00"
-        },
-        {
-            "name": "bordoni/phpass",
-            "version": "0.3.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/bordoni/phpass.git",
-                "reference": "12f8f5cc03ebb7efd69554f104afe9aa1aa46e1a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/bordoni/phpass/zipball/12f8f5cc03ebb7efd69554f104afe9aa1aa46e1a",
-                "reference": "12f8f5cc03ebb7efd69554f104afe9aa1aa46e1a",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.3"
-            },
-            "replace": {
-                "hautelook/phpass": "0.3.*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Hautelook": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Public Domain"
-            ],
-            "authors": [
-                {
-                    "name": "Solar Designer",
-                    "email": "solar@openwall.com",
-                    "homepage": "http://openwall.com/phpass/"
-                },
-                {
-                    "name": "Gustavo Bordoni",
-                    "email": "gustavo@bordoni.me",
-                    "homepage": "https://bordoni.me"
-                }
-            ],
-            "description": "Portable PHP password hashing framework",
-            "homepage": "http://github.com/bordoni/phpass/",
-            "keywords": [
-                "blowfish",
-                "crypt",
-                "password",
-                "security"
-            ],
-            "support": {
-                "issues": "https://github.com/bordoni/phpass/issues",
-                "source": "https://github.com/bordoni/phpass/tree/0.3.6"
-            },
-            "time": "2012-08-31T00:00:00+00:00"
         },
         {
             "name": "brick/math",
@@ -1994,74 +1938,6 @@
                 }
             ],
             "time": "2023-01-14T14:17:03+00:00"
-        },
-        {
-            "name": "fakerphp/faker",
-            "version": "v1.23.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/FakerPHP/Faker.git",
-                "reference": "e3daa170d00fde61ea7719ef47bb09bb8f1d9b01"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/FakerPHP/Faker/zipball/e3daa170d00fde61ea7719ef47bb09bb8f1d9b01",
-                "reference": "e3daa170d00fde61ea7719ef47bb09bb8f1d9b01",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.4 || ^8.0",
-                "psr/container": "^1.0 || ^2.0",
-                "symfony/deprecation-contracts": "^2.2 || ^3.0"
-            },
-            "conflict": {
-                "fzaninotto/faker": "*"
-            },
-            "require-dev": {
-                "bamarni/composer-bin-plugin": "^1.4.1",
-                "doctrine/persistence": "^1.3 || ^2.0",
-                "ext-intl": "*",
-                "phpunit/phpunit": "^9.5.26",
-                "symfony/phpunit-bridge": "^5.4.16"
-            },
-            "suggest": {
-                "doctrine/orm": "Required to use Faker\\ORM\\Doctrine",
-                "ext-curl": "Required by Faker\\Provider\\Image to download images.",
-                "ext-dom": "Required by Faker\\Provider\\HtmlLorem for generating random HTML.",
-                "ext-iconv": "Required by Faker\\Provider\\ru_RU\\Text::realText() for generating real Russian text.",
-                "ext-mbstring": "Required for multibyte Unicode string functionality."
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-main": "v1.21-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Faker\\": "src/Faker/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "François Zaninotto"
-                }
-            ],
-            "description": "Faker is a PHP library that generates fake data for you.",
-            "keywords": [
-                "data",
-                "faker",
-                "fixtures"
-            ],
-            "support": {
-                "issues": "https://github.com/FakerPHP/Faker/issues",
-                "source": "https://github.com/FakerPHP/Faker/tree/v1.23.0"
-            },
-            "time": "2023-06-12T08:44:38+00:00"
         },
         {
             "name": "filament/filament",
@@ -3518,72 +3394,6 @@
             "time": "2020-06-13T08:05:20+00:00"
         },
         {
-            "name": "jgrossi/corcel",
-            "version": "v7.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/corcel/corcel.git",
-                "reference": "eba55da9a8179a868438f09b6f31f95b9bec5f8a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/corcel/corcel/zipball/eba55da9a8179a868438f09b6f31f95b9bec5f8a",
-                "reference": "eba55da9a8179a868438f09b6f31f95b9bec5f8a",
-                "shasum": ""
-            },
-            "require": {
-                "bordoni/phpass": "0.3.*",
-                "fakerphp/faker": "^1.19",
-                "illuminate/database": "^10.0",
-                "illuminate/filesystem": "^10.0",
-                "illuminate/support": "^10.0",
-                "php": "^8.1.0",
-                "thunderer/shortcode": "^0.7.3"
-            },
-            "replace": {
-                "juniorgrossi/corcel": "self.version"
-            },
-            "require-dev": {
-                "dms/phpunit-arraysubset-asserts": "^0.3",
-                "laravel/legacy-factories": "^1.0",
-                "mockery/mockery": "^1.4.4",
-                "orchestra/testbench": "^8.0",
-                "symfony/thanks": "^1.0"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Corcel\\Laravel\\CorcelServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Corcel\\": "src/",
-                    "Corcel\\Tests\\": "tests/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Junior Grossi",
-                    "email": "juniorgro@gmail.com",
-                    "homepage": "http://jgrossi.com"
-                }
-            ],
-            "description": "Use WordPress backend with Laravel or any PHP framework",
-            "homepage": "http://github.com/corcel/corcel",
-            "support": {
-                "issues": "https://github.com/corcel/corcel/issues",
-                "source": "https://github.com/corcel/corcel/tree/v7.0.0"
-            },
-            "time": "2023-06-09T21:06:24+00:00"
-        },
-        {
             "name": "lara-zeus/bolt",
             "version": "1.2.0",
             "source": {
@@ -3837,102 +3647,12 @@
             "time": "2023-06-24T18:18:47+00:00"
         },
         {
-            "name": "lara-zeus/rhea",
-            "version": "1.0.8",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/lara-zeus/rhea.git",
-                "reference": "32d496e583bfcec1cfcd6e6c3f789173852b2a68"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/lara-zeus/rhea/zipball/32d496e583bfcec1cfcd6e6c3f789173852b2a68",
-                "reference": "32d496e583bfcec1cfcd6e6c3f789173852b2a68",
-                "shasum": ""
-            },
-            "require": {
-                "jgrossi/corcel": "^7.0",
-                "lara-zeus/sky": "^2.4",
-                "php": "^8.0",
-                "ryangjchandler/filament-navigation": "dev-with-rtl"
-            },
-            "require-dev": {
-                "laravel/pint": "^1.0",
-                "nunomaduro/larastan": "^2.0",
-                "orchestra/testbench": "^6.0 || ^7.0 || ^8.0",
-                "phpstan/extension-installer": "^1.1",
-                "phpstan/phpstan-deprecation-rules": "^1.0",
-                "phpstan/phpstan-phpunit": "^1.0"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "LaraZeus\\Rhea\\RheaServiceProvider"
-                    ],
-                    "aliases": {
-                        "Rhea": "LaraZeus\\Rhea\\RheaFacade"
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "LaraZeus\\Rhea\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "php coder",
-                    "email": "info@larazeus.com",
-                    "role": "Owner"
-                }
-            ],
-            "description": "migrate your wordpress blog to zeus sky",
-            "homepage": "https://larazeus.com",
-            "keywords": [
-                "Laravel CMS",
-                "cms",
-                "filamentphp",
-                "lara-zeus",
-                "laravel",
-                "menu",
-                "news",
-                "pages",
-                "posts",
-                "sky",
-                "wordpress alternative",
-                "wordpress laravel",
-                "wordpress migrate"
-            ],
-            "support": {
-                "issues": "https://github.com/lara-zeus/rhea/issues",
-                "source": "https://github.com/lara-zeus/rhea/tree/1.0.8"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/atmonshi",
-                    "type": "github"
-                }
-            ],
-            "time": "2023-06-24T23:04:56+00:00"
-        },
-        {
             "name": "lara-zeus/sky",
-            "version": "2.4.27",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/lara-zeus/sky.git",
-                "reference": "591dc7aed8781c17eedcbeedb5198af452d80d39"
-            },
+            "version": "dev-main",
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/lara-zeus/sky/zipball/591dc7aed8781c17eedcbeedb5198af452d80d39",
-                "reference": "591dc7aed8781c17eedcbeedb5198af452d80d39",
-                "shasum": ""
+                "type": "path",
+                "url": "../sky",
+                "reference": "591dc7aed8781c17eedcbeedb5198af452d80d39"
             },
             "require": {
                 "doctrine/dbal": "^3.3",
@@ -3974,7 +3694,26 @@
                     "LaraZeus\\Sky\\": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "psr-4": {
+                    "LaraZeus\\Sky\\Tests\\": "tests"
+                }
+            },
+            "scripts": {
+                "pint": [
+                    "vendor/bin/pint"
+                ],
+                "test:pest": [
+                    "vendor/bin/pest --parallel"
+                ],
+                "test:phpstan": [
+                    "vendor/bin/phpstan analyse"
+                ],
+                "test": [
+                    "@test:pest",
+                    "@test:phpstan"
+                ]
+            },
             "license": [
                 "MIT"
             ],
@@ -3988,11 +3727,11 @@
             "description": "Lara-zeus sky is simple CMS for your website. It includes posts, pages, tags, and categories.",
             "homepage": "https://larazeus.com",
             "keywords": [
-                "Laravel CMS",
                 "cms",
                 "filamentphp",
                 "lara-zeus",
                 "laravel",
+                "laravel cms",
                 "menu",
                 "news",
                 "pages",
@@ -4001,17 +3740,9 @@
                 "wordpress alternative",
                 "wordpress laravel"
             ],
-            "support": {
-                "issues": "https://github.com/lara-zeus/sky/issues",
-                "source": "https://github.com/lara-zeus/sky/tree/2.4.27"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/atmonshi",
-                    "type": "github"
-                }
-            ],
-            "time": "2023-06-24T22:56:18+00:00"
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "lara-zeus/thunder",
@@ -4123,17 +3854,11 @@
         },
         {
             "name": "lara-zeus/wind",
-            "version": "2.4.18",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/lara-zeus/wind.git",
-                "reference": "00680dcb9cf3090ddda6a64a1086a96449aecd57"
-            },
+            "version": "dev-main",
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/lara-zeus/wind/zipball/00680dcb9cf3090ddda6a64a1086a96449aecd57",
-                "reference": "00680dcb9cf3090ddda6a64a1086a96449aecd57",
-                "shasum": ""
+                "type": "path",
+                "url": "../wind",
+                "reference": "00680dcb9cf3090ddda6a64a1086a96449aecd57"
             },
             "require": {
                 "lara-zeus/core": "^2.4",
@@ -4165,7 +3890,26 @@
                     "LaraZeus\\Wind\\": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "psr-4": {
+                    "LaraZeus\\Wind\\Tests\\": "tests"
+                }
+            },
+            "scripts": {
+                "pint": [
+                    "vendor/bin/pint"
+                ],
+                "test:pest": [
+                    "vendor/bin/pest --parallel"
+                ],
+                "test:phpstan": [
+                    "vendor/bin/phpstan analyse"
+                ],
+                "test": [
+                    "@test:pest",
+                    "@test:phpstan"
+                ]
+            },
             "license": [
                 "MIT"
             ],
@@ -4179,25 +3923,17 @@
             "description": "Zeus Wind is simple contact form for your website with easy to use dashboard, works as a plugin for Filament Admin Panel",
             "homepage": "https://github.com/lara-zeus",
             "keywords": [
-                "Forms",
                 "contact",
                 "filamentphp",
                 "form",
+                "forms",
                 "lara-zeus",
                 "laravel",
                 "mailing"
             ],
-            "support": {
-                "issues": "https://github.com/lara-zeus/wind/issues",
-                "source": "https://github.com/lara-zeus/wind/tree/2.4.18"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/atmonshi",
-                    "type": "github"
-                }
-            ],
-            "time": "2023-06-28T22:25:19+00:00"
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "laravel/framework",
@@ -11202,62 +10938,6 @@
             "time": "2021-09-14T08:27:50+00:00"
         },
         {
-            "name": "thunderer/shortcode",
-            "version": "v0.7.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/thunderer/Shortcode.git",
-                "reference": "a4fee30613bd46efb421f8305aff0466a3268a99"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/thunderer/Shortcode/zipball/a4fee30613bd46efb421f8305aff0466a3268a99",
-                "reference": "a4fee30613bd46efb421f8305aff0466a3268a99",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3"
-            },
-            "require-dev": {
-                "phpunit/phpunit": ">=4.1",
-                "symfony/yaml": ">=2.0"
-            },
-            "suggest": {
-                "ext-dom": "if you want to use XML serializer",
-                "ext-json": "if you want to use JSON serializer",
-                "symfony/yaml": "if you want to use YAML serializer"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Thunder\\Shortcode\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Tomasz Kowalczyk",
-                    "email": "tomasz@kowalczyk.cc"
-                }
-            ],
-            "description": "Advanced shortcode (BBCode) parser and engine for PHP",
-            "keywords": [
-                "bbcode",
-                "engine",
-                "library",
-                "parser",
-                "shortcode"
-            ],
-            "support": {
-                "issues": "https://github.com/thunderer/Shortcode/issues",
-                "source": "https://github.com/thunderer/Shortcode/tree/v0.7.5"
-            },
-            "time": "2022-01-13T18:53:33+00:00"
-        },
-        {
             "name": "tijsverkoyen/css-to-inline-styles",
             "version": "2.2.6",
             "source": {
@@ -11759,6 +11439,74 @@
                 }
             ],
             "time": "2022-12-30T00:23:10+00:00"
+        },
+        {
+            "name": "fakerphp/faker",
+            "version": "v1.23.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FakerPHP/Faker.git",
+                "reference": "e3daa170d00fde61ea7719ef47bb09bb8f1d9b01"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FakerPHP/Faker/zipball/e3daa170d00fde61ea7719ef47bb09bb8f1d9b01",
+                "reference": "e3daa170d00fde61ea7719ef47bb09bb8f1d9b01",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4 || ^8.0",
+                "psr/container": "^1.0 || ^2.0",
+                "symfony/deprecation-contracts": "^2.2 || ^3.0"
+            },
+            "conflict": {
+                "fzaninotto/faker": "*"
+            },
+            "require-dev": {
+                "bamarni/composer-bin-plugin": "^1.4.1",
+                "doctrine/persistence": "^1.3 || ^2.0",
+                "ext-intl": "*",
+                "phpunit/phpunit": "^9.5.26",
+                "symfony/phpunit-bridge": "^5.4.16"
+            },
+            "suggest": {
+                "doctrine/orm": "Required to use Faker\\ORM\\Doctrine",
+                "ext-curl": "Required by Faker\\Provider\\Image to download images.",
+                "ext-dom": "Required by Faker\\Provider\\HtmlLorem for generating random HTML.",
+                "ext-iconv": "Required by Faker\\Provider\\ru_RU\\Text::realText() for generating real Russian text.",
+                "ext-mbstring": "Required for multibyte Unicode string functionality."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "v1.21-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Faker\\": "src/Faker/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "François Zaninotto"
+                }
+            ],
+            "description": "Faker is a PHP library that generates fake data for you.",
+            "keywords": [
+                "data",
+                "faker",
+                "fixtures"
+            ],
+            "support": {
+                "issues": "https://github.com/FakerPHP/Faker/issues",
+                "source": "https://github.com/FakerPHP/Faker/tree/v1.23.0"
+            },
+            "time": "2023-06-12T08:44:38+00:00"
         },
         {
             "name": "fidry/cpu-core-counter",
@@ -15220,6 +14968,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "lara-zeus/sky": 20,
+        "lara-zeus/wind": 20,
         "still-code/signature": 20
     },
     "prefer-stable": true,

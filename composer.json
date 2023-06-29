@@ -17,11 +17,10 @@
         "garygreen/pretty-routes": "^1.0",
         "guzzlehttp/guzzle": "^7.5",
         "ibrahimbougaoua/filament-menu-scroll-fix": "^1.0",
-        "lara-zeus/bolt": "^1.1",
+        "lara-zeus/bolt": "^1.2",
         "lara-zeus/rain": "^1.0",
-        "lara-zeus/rhea": "^1.0",
-        "lara-zeus/sky": "^2.4",
-        "lara-zeus/wind": "^2.4",
+        "lara-zeus/sky": "dev-main",
+        "lara-zeus/wind": "dev-main",
         "lara-zeus/thunder": "^1.0",
         "laravel/framework": "^10.0",
         "laravel/sanctum": "^3.2",
@@ -95,6 +94,14 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "repositories": [
+        {
+            "type": "path",
+            "url": "../sky"
+        },
+        {
+            "type": "path",
+            "url": "../wind"
+        },
         {
             "type": "github",
             "url": "git@github.com:lara-zeus/thunder.git"

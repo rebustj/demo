@@ -18,15 +18,15 @@ class PostFactory extends Factory
     {
         return [
             'user_id' => 1,
-            'title' => $this->faker->sentence($nbWords = 6, $variableNbWords = true),
+            'title' => $this->faker->sentence(),
             'slug' => $this->faker->slug(2),
-            'description' => $this->faker->paragraph($nbSentences = 3, $variableNbSentences = true),
-            'content' => $this->faker->paragraph($nbSentences = 12, $variableNbSentences = true),
+            'description' => $this->faker->paragraph(),
+            'content' => $this->faker->paragraph(),
             'published_at' => now(),
             'sticky_until' => $this->faker->randomElement([now()->addWeek(), null]),
             'status' => $this->faker->randomElement(['publish']), // , 'future', 'draft', 'private'
             'post_type' => $this->faker->randomElement(['page', 'post']),
-            'featured_image' => asset('storage/layouts/d8snXpNRmcxggHsotkH9p8lxZQ2zeA-metaRGVtby5wbmc=-.png'),
+            'featured_image' => 'https://picsum.photos/1200/1300?random='.$this->faker->randomNumber(),
         ];
     }
 }
