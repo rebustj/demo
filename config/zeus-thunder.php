@@ -17,8 +17,6 @@ return [
      */
     'tickets_uri_prefix' => 'form',
 
-    'layout' => 'zeus::components.app',
-
     /**
      * this will be setup the default seo site title. read more about it in 'laravel-seo'.
      */
@@ -38,11 +36,6 @@ return [
         'disk' => 'public',
         'directory' => 'logos',
     ],
-
-    /**
-     * the default theme, for now we only have one theme, and soon we will provide more free and premium themes.
-     */
-    'theme' => 'zeus',
 
     /**
      * available locales, this currently used only in tags manager.

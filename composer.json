@@ -20,6 +20,9 @@
         "lara-zeus/artemis": "dev-themes",
         "lara-zeus/sky": "dev-change-theme-var",
         "lara-zeus/wind": "dev-themes",
+        "lara-zeus/rain": "dev-themes",
+        "lara-zeus/thunder": "dev-themes",
+        "lara-zeus/bolt": "dev-themes",
         "laravel/framework": "^10.0",
         "laravel/sanctum": "^3.2",
         "ryangjchandler/blade-tabler-icons": "^2.0",
@@ -94,7 +97,15 @@
     "repositories": [
         {
             "type": "path",
-            "url": "../sky"
+            "url": "../artemis"
+        },
+        {
+            "type": "path",
+            "url": "../rain"
+        },
+        {
+            "type": "path",
+            "url": "../rhea"
         },
         {
             "type": "path",
@@ -106,7 +117,15 @@
         },
         {
             "type": "path",
-            "url": "../artemis"
+            "url": "../sky"
+        },
+        {
+            "type": "path",
+            "url": "../bolt"
+        },
+        {
+            "type": "path",
+            "url": "../thunder"
         },
         {
             "type": "github",
