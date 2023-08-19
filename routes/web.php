@@ -21,6 +21,15 @@ Route::post('/forms', function () {
     ]);
 });
 
+Route::get('/up', function () {
+    auth()->user()->addPoints(10);
+    dump(auth()->user()->nextLevelAt());
+
+    dd(\LevelUp\Experience\Facades\Leaderboard::generate()
+        ->pluck('experience.experience_points','id')
+    );
+});
+
 Route::view('embed', 'embed');
 
 Route::get('lang/{lang}', function ($lang) {

@@ -11,10 +11,11 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 use LevelUp\Experience\Concerns\GiveExperience;
+use LevelUp\Experience\Concerns\HasAchievements;
 
 class User extends Authenticatable implements FilamentUser, HasAvatar
 {
-    use HasApiTokens, HasFactory, Notifiable, GiveExperience;
+    use HasApiTokens, HasFactory, Notifiable, GiveExperience, HasAchievements;
 
     /**
      * The attributes that are mass assignable.
