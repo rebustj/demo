@@ -37,6 +37,7 @@ use LaraZeus\Thunder\Extensions\Thunder;
 use LaraZeus\Thunder\Filament\Resources\OperationsResource;
 use LaraZeus\Thunder\Filament\Resources\TicketResource;
 use LaraZeus\Thunder\ThunderPlugin;
+use LaraZeus\Tyche\TychePlugin;
 use LaraZeus\Wind\Filament\Resources\LetterResource;
 use LaraZeus\Wind\WindPlugin;
 use RyanChandler\FilamentNavigation\FilamentNavigation;
@@ -192,6 +193,7 @@ class AdminPanelProvider extends PanelProvider
             ThunderPlugin::make(),
             RainPlugin::make(),
             RheaPlugin::make(),
+            TychePlugin::make(),
         ];
     }
 }
